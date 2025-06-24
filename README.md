@@ -31,3 +31,19 @@ The project uses a ***univariate linear regression model*** trained via gradient
 3. View your predicted equivalent rating on the other platform:
    - CodeChef ➝ Codeforces: Output includes predicted rating **+ Star Level**
    - Codeforces ➝ CodeChef: Output includes predicted rating **+ Title**
+
+## 📁 File Structure:
+```
+Rating-Converter/
+├── index.html         # Main HTML file containing UI layout
+├── style.css          # CSS for styling the converter interface
+├── script.js          # JavaScript for handling logic and model prediction
+├── final_cccf.csv     # Dataset for model prediction
+├── CC_CF.ipynb        # Colab notebook for EDA, training a univariate linear regression model, and exporting model parameters
+└── README.md          # Project documentation
+```
+
+## 👤 Author
+Anuj Kulkarni - aka - steam-bell-92
+
+Also this project was part of Summer-of-ML by BSoC
