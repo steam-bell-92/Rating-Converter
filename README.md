@@ -24,6 +24,9 @@ The project uses a ***univariate linear regression model*** trained via gradient
 - Performance: R² Score: 0.39146998581676273
 - Note: Due to limited dataset diversity, feature engineering was intentionally avoided.
 
+## 🌐 Live Website
+<p>Try the rating converter here: <a href='https://steam-bell-92.github.io/Rating-Converter/'>WEB</a></p>
+
 ## 🚀 Usage
 
 1. Choose the source platform: **CodeChef** or **Codeforces**
@@ -31,6 +34,7 @@ The project uses a ***univariate linear regression model*** trained via gradient
 3. View your predicted equivalent rating on the other platform:
    - CodeChef ➝ Codeforces: Output includes predicted rating **+ Star Level**
    - Codeforces ➝ CodeChef: Output includes predicted rating **+ Title**
+4. If want to use again try refreshing site
 
 ## 📁 File Structure:
 ```
