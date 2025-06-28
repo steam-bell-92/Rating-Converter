@@ -8,20 +8,20 @@ The project uses a ***univariate linear regression model*** trained via gradient
 - 🔄 Convert ratings from **CodeChef to Codeforces** and vice versa.
 - 📊 Displays **titles** for CodeChef and **star levels** for Codeforces.
 - ⚙️ Simple linear model with minimal input requirement.
-- 🌈 Web interface styled with HTML and CSS, powered by JavaScript.
+- 🌈 Web interface styled with `HTML` and `CSS`, powered by `JavaScript`.
 
 
 ## 💻 Tech Stack
 
-- **Python (Google Colab)** – for training the ML model using gradient descent.
-- **HTML & CSS** – for structuring and styling the frontend.
-- **JavaScript** – for integrating model predictions and DOM interaction.
+- **`Python` (`Google Colab`)** – for training the ML model using gradient descent.
+- **`HTML & CSS`** – for structuring and styling the frontend.
+- **`JavaScript`** – for integrating model predictions and DOM interaction.
 
 ## 🧠 Model Details
 
 - Type: Univariate Linear Regression
 - Algorithm: Gradient Descent
-- Performance: R² Score: 0.39146998581676273
+- Performance: `R² Score`: 0.39146998581676273
 - Note: Due to limited dataset diversity, feature engineering was intentionally avoided.
 
 ## 🌐 Live Website
