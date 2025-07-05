@@ -33,6 +33,7 @@ The project uses a ***univariate linear regression model*** trained via gradient
 
 ## 🌐 Live Website
 <p>Try the rating converter here: <a href='https://steam-bell-92.github.io/Rating-Converter/'>WEB</a></p>
+⭐ If you find this useful, consider giving it a star!
 
 ---
 
