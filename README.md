@@ -3,6 +3,8 @@
 A simple and intuitive rating converter that translates competitive programming ratings between CodeChef and Codeforces platforms.<br>
 The project uses a ***univariate linear regression model*** trained via gradient descent to estimate equivalent ratings, providing platform-specific interpretations like titles (for CodeChef) and stars (for Codeforces).
 
+⭐ If you find this useful, consider giving it a star!
+
 ---
 
 ## 📌 Features
