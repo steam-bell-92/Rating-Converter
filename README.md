@@ -16,6 +16,16 @@ The project uses a ***univariate linear regression model*** trained via gradient
 
 ---
 
+## 🧠 BSoC Attribution
+
+This project was completed during **Week 2 (June 23-29, 2025)** of the **Summer of Machine Learning (SoML)** track under **BSoC**.
+
+---
+
+## 🚀 Enhancements
+
+- 📁 Plotted **Plotly Express** Plots along with Seaborn.
+
 ## 💻 Tech Stack
 
 - **`Python` (`Google Colab`)** – for training the ML model using gradient descent.
