@@ -63,12 +63,19 @@ This project was completed during **Week 2 (June 23-29, 2025)** of the **Summer 
 ## 📁 File Structure:
 ```
 Rating-Converter/
-├── index.html         🔹 Main HTML file containing UI layout
-├── style.css          🔹 CSS for styling the converter interface
-├── javascript.js      🔹 JavaScript for handling logic and model prediction
-├── final_cccf.csv     🔹 Dataset for model prediction
-├── CC_CF.ipynb        🔹 Colab notebook for EDA, training a univariate linear regression model, and exporting model parameters
-└── README.md          🔹 Project documentation
+|
+├── CODES/
+|   ├── final_cccf.csv     🔹 Dataset for model prediction
+|   └── CC_CF.ipynb        🔹 Colab notebook for EDA, training a univariate linear regression model, and exporting model parameters
+|
+├── WEBSITE/
+|   ├── index.html         🔹 Main HTML file containing UI layout
+|   ├── style.css          🔹 CSS for styling the converter interface
+|   └── javascript.js      🔹 JavaScript for handling logic and model prediction
+|
+├── LICENSE                🔹 MIT Lincense
+|
+└── README.md              🔹 This File !!
 ```
 
 ---
