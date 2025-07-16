@@ -44,7 +44,7 @@ This project was completed during **Week 2 (June 23-29, 2025)** of the **Summer 
 ---
 
 ## 🌐 Live Website
-<p>Try the rating converter here: <a href='https://steam-bell-92.github.io/Rating-Converter/'>WEB</a></p>
+<p>Try the rating converter here: <a href='https://steam-bell-92.github.io/Rating-Converter/WEBSITE/index.html'>WEB</a></p>
 ⭐ If you find this useful, consider giving it a star!
 
 ---
