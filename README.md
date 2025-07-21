@@ -1,4 +1,4 @@
-## 🔁 Rating Converter: CodeChef ↔ Codeforces
+# 🔁 Rating Converter: CodeChef ↔ Codeforces
 
 A simple and intuitive rating converter that translates competitive programming ratings between CodeChef and Codeforces platforms.<br>
 The project uses a ***univariate linear regression model*** trained via gradient descent to estimate equivalent ratings, providing platform-specific interpretations like titles (for CodeChef) and stars (for Codeforces).
@@ -22,7 +22,7 @@ This project was completed during **Week 2 (June 23-29, 2025)** of the **Summer 
 
 ---
 
-## 🚀 Enhancements
+### 🚀 Enhancements
 
 - 📁 Plotted **Plotly Express** Plots along with Seaborn.
 
