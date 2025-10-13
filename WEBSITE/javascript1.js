@@ -46,6 +46,6 @@ function convertRating() {
             resultDiv.textContent = `You are ${(getTitle1(predicted))} with rating: ${Math.round(predicted)}`;
             resultDiv.textContent = `You are ${(getTitle2(predicted))} with rating: ${Math.round(predicted)}`;}
         else {
-            resultDiv.textContent = `You are ${(getTitle1(predicted))} with rating: 0`;
-            resultDiv.textContent = `You are ${(getTitle2(predicted))} with rating: 0`;}
+            resultDiv.textContent = `You are ${(getTitle1(predicted))} with rating: ${(predicted)}`;
+            resultDiv.textContent = `You are ${(getTitle2(predicted))} with rating: ${(predicted)}`;}
 }
