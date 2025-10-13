@@ -60,9 +60,9 @@ function convertRating() {
     // --- Final Output (Sets the result text only once) ---
     if (displayRating < 0) {
         // Handle the edge case where the formula produces a negative rating
-        resultDiv.textContent = `Predicted Rating on ${targetPlatform}: ${displayRating} (Negative rating is unexpected).`;
+        resultDiv.textContent = `Ypu are predicted ${title} 0 Rated on ${targetPlatform}`;
     } else {
         // Standard output for positive ratings
-        resultDiv.textContent = `Predicted Rating on ${targetPlatform}: ${displayRating}. Your likely title is **${title}**.`;
+        resultDiv.textContent = `You are predicted ${title} ${displayRating} Rated on ${targetPlatform}:`;
     }
 }
