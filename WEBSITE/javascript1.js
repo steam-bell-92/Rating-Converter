@@ -66,3 +66,14 @@ function convertRating() {
         resultDiv.textContent = `You are predicted ${title} ${displayRating} Rated on ${targetPlatform}:`;
     }
 }
+
+function resetCalculator() {
+    // 1. Clear the input number
+    document.getElementById("rating").value = "";
+    // 2. Reset the result text to default
+    document.getElementById("result").textContent = "Predicted Rating: -";
+    // 3. Optional: Reset dropdown to the first option (CodeChef)
+    document.getElementById("platform").selectedIndex = 0;
+    // 4. Focus back on the input so user can type immediately
+    document.getElementById("rating").focus();
+}
