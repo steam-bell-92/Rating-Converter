@@ -56,8 +56,7 @@ This project was completed during **Week 2 (June 23-29, 2025)** of the **Summer 
 3. View your predicted equivalent rating on the other platform:
    - CodeChef ➝ Codeforces: Output includes predicted rating **+ Star Level**
    - Codeforces ➝ CodeChef: Output includes predicted rating **+ Title**
-4. If want to use again try refreshing site
-
+   - 
 ---
 
 ## 📁 File Structure:
