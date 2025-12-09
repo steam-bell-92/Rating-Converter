@@ -34,6 +34,8 @@ def gradient_descent(X, y, w_in, b_in, alpha, num_iters, cost_function, gradient
         dw, db = gradient_function(X, y, w, b, reg_lambda)
         
         # Update parameters
+        # Note: This matches the notebook's implementation where alpha is divided by m.
+        # The gradient dw already contains the sum (not mean), so we divide by m here.
         w = w - (alpha / m) * dw
         b = b - (alpha / m) * db
         

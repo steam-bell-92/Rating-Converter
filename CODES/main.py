@@ -29,8 +29,10 @@ def load_and_prepare_data(file_path):
     # Drop rows with missing values
     df.dropna(inplace=True)
     
-    # Remove outliers using IQR method (matching notebook's implementation)
-    # Note: The notebook overwrites df1 in each iteration, so only the last column's filter is applied
+    # Remove outliers using IQR method (matching notebook's implementation exactly)
+    # Note: This matches the notebook's behavior where df1 is overwritten in each iteration,
+    # so only the last column's (cc_rating) outlier filter is effectively applied.
+    # This preserves the exact same data filtering as the original implementation.
     for i in ['cf_rating', 'cc_rating']:
         Q1 = df[i].quantile(0.25)
         Q3 = df[i].quantile(0.75)
